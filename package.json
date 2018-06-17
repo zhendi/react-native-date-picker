@@ -21,5 +21,8 @@
     "react native date picker",
     "react-native",
     "react-native-date-picker"
-  ]
+  ],
+  "jest": {
+    "preset": "react-native"
+  }
 }
