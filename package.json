@@ -22,6 +22,9 @@
     "react-native",
     "react-native-date-picker"
   ],
+  "devDependencies": {
+    "jest-cli": "20.0.4"
+  },
   "jest": {
     "preset": "react-native"
   }
