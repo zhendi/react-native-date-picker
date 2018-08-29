@@ -172,7 +172,7 @@ public class PickerView extends RelativeLayout {
 
     public void setMode(Mode mode) {
         this.mode = mode;
-        applyOnAllWheels(new Refresh());
+        applyOnAllWheels(new Refresh(false));
         wheelOrderUpdater.update(locale, mode);
     }
 
