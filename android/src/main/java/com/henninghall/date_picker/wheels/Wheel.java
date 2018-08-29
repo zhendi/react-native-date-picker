@@ -20,7 +20,7 @@ public abstract class Wheel {
 
     abstract void init();
     public abstract boolean visible();
-    abstract String getFormatTemplate();
+    public abstract String getFormatTemplate();
 
     ArrayList<String> values;
     ArrayList<String> displayValues;

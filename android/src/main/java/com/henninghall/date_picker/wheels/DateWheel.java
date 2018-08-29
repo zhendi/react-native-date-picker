@@ -30,8 +30,10 @@ public class DateWheel extends Wheel
     public boolean visible() {
         return this.pickerView.mode == Mode.date;
     }
-    
+
+    @Override
     public String getFormatTemplate() {
         return "d";
     }
+
 }
