@@ -39,7 +39,7 @@ interface Props extends ViewProps {
   /**
    * The interval at which minutes can be selected.
    */
-  minuteInterval?: 1 | 2 | 3 | 4 | 5 | 6 | 10 | 12 | 15 | 20 | 30
+  minuteInterval?: 1 | 2 | 3 | 4 | 5 | 6 | 10 | 12 | 15 | 20 | 30 | 60
 
   /**
    * The date picker mode.
