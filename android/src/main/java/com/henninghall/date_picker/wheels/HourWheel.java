@@ -15,7 +15,7 @@ public class HourWheel extends Wheel {
 
     @Override
     void init() {
-        int numberOfHours = Settings.usesAmPm() ? 12 : 24;
+        int numberOfHours = 24;
         Calendar cal = pickerView.getInitialDate();
 
         for(int i=0; i<numberOfHours; i++) {
@@ -35,7 +35,7 @@ public class HourWheel extends Wheel {
 
     @Override
     public String getFormatTemplate() {
-        return Settings.usesAmPm() ? "h": "HH";
+        return "HH";
     }
 
     @Override
