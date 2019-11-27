@@ -37,7 +37,7 @@ public class AmPmWheel extends Wheel {
 
     @Override
     public boolean visible() {
-        return Settings.usesAmPm() && pickerView.mode != Mode.date;
+        return false; //Settings.usesAmPm() && pickerView.mode != Mode.date;
     }
 
     @Override
